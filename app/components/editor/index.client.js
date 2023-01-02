@@ -46,10 +46,10 @@ export default function Editor({ record, action }) {
 
   return (
     <div style={{ height: 400 }}>
-      <Form ref={formRef} onSubmit={handleSave}>
+      {/* <Form ref={formRef} onSubmit={handleSave}>
         <input type="hidden" name="content" value={JSON.stringify(content)} />
         <button type="submit">Save</button>
-      </Form>
+      </Form> */}
       <div id="ssr-holder"></div>
     </div>
   );
