@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.codex-editor h3 {
+  color: blue;
+}
+
+.codex-editor h2 {
+  @apply text-gray-500;
+  @apply text-3xl;
+  @apply font-bold;
+}
