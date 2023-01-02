@@ -2,12 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-.codex-editor h3 {
-  color: blue;
-}
-
-.codex-editor h2 {
-  @apply text-gray-500;
+.codex-editor h1 {
+  @apply text-zinc-900;
   @apply text-3xl;
+  /* @apply font-bold; */
+}
+.codex-editor h2 {
+  @apply text-zinc-800;
+  @apply text-2xl;
+  @apply font-bold;
+}
+.codex-editor h3 {
+  @apply text-zinc-700;
+  @apply text-xl;
+  @apply font-bold;
+}
+.codex-editor h4 {
+  @apply text-zinc-900;
+  @apply text-lg;
+  /* @apply font-bold; */
+}
+.codex-editor h5 {
+  @apply text-zinc-800;
+  @apply text-base;
+  @apply font-bold;
+}
+.codex-editor h6 {
+  @apply text-zinc-700;
+  @apply text-sm;
   @apply font-bold;
 }

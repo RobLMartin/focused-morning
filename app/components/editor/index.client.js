@@ -25,7 +25,7 @@ export default function Editor({ record, action }) {
 
   if (typeof window === "undefined") {
     return (
-      <div style={{ height: 400 }}>
+      <div>
         <div id="ssr-holder"></div>
       </div>
     );
@@ -45,12 +45,16 @@ export default function Editor({ record, action }) {
   };
 
   return (
-    <div style={{ height: 400 }}>
+    <div className="p-5">
       {/* <Form ref={formRef} onSubmit={handleSave}>
         <input type="hidden" name="content" value={JSON.stringify(content)} />
         <button type="submit">Save</button>
       </Form> */}
-      <div id="ssr-holder"></div>
+      <div
+        id="ssr-holder"
+        className="p-10 bg-white w-full min-h-screen shadow-md 
+        rounded-xl"
+      ></div>
     </div>
   );
 }
